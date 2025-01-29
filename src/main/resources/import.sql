@@ -13,3 +13,9 @@ INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES (TIMESTAMP WITHOUT TIME 
 INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES (TIMESTAMP WITHOUT TIME ZONE '2017-09-25T14:00:00Z', TIMESTAMP WITH TIME ZONE '2017-09-25T18:00:00Z', 2);
 INSERT INTO tb_bloco (inicio, fim, atividade_id) VALUES (TIMESTAMP WITHOUT TIME ZONE '2017-09-26T08:00:00Z', TIMESTAMP WITH TIME ZONE '2017-09-26T11:00:00Z',2);
 
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (1, 1);
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (1, 2);
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (1, 3);
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (2, 1);
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (2, 3);
+INSERT INTO  tb_atividade_participante(atividade_id, participante_id) VALUES (2, 4);
